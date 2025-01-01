@@ -1634,7 +1634,8 @@
         "type": "Feature",
         "properties": {
           "name": "Georgia",
-          "density": 169.5
+          "salesRep": "Warren Miller",
+          "salesRepContact":"warren.miller@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -1852,7 +1853,8 @@
         "type": "Feature",
         "properties": {
           "name": "Hawaii",
-          "density": 214.1
+          "salesRep": "Makia Kim",
+          "salesRepContact":"makia.kim@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -2081,7 +2083,8 @@
         "id": "47",
         "properties": {
           "name": "Tennessee",
-          "density": 88.08
+          "salesRep": "Jason Mastrean",
+          "salesRepContact":"jason.mastrean@rayamerica.com"
         },
         "geometry": {
           "type": "Polygon",
@@ -2267,7 +2270,8 @@
         "type": "Feature",
         "properties": {
           "name": "Idaho",
-          "density": 19.15
+          "salesRep": "Steve Pryce",
+          "salesRepContact":"steve.pryce@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -2545,7 +2549,8 @@
         "type": "Feature",
         "properties": {
           "name": "Illinois",
-          "density": 231.5
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -2827,7 +2832,8 @@
         "type": "Feature",
         "properties": {
           "name": "Indiana",
-          "density": 181.7
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -3025,7 +3031,8 @@
         "type": "Feature",
         "properties": {
           "name": "Iowa",
-          "density": 54.81
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -3239,7 +3246,8 @@
         "type": "Feature",
         "properties": {
           "name": "Kansas",
-          "density": 35.09
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -3305,7 +3313,8 @@
         "type": "Feature",
         "properties": {
           "name": "Kentucky",
-          "density": 110
+          "salesRep": "Jason Mastrean",
+          "salesRepContact":"jason.mastrean@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -3619,7 +3628,8 @@
         "type": "Feature",
         "properties": {
           "name": "Louisiana",
-          "density": 105
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -3937,7 +3947,8 @@
         "type": "Feature",
         "properties": {
           "name": "Maine",
-          "density": 43.04
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -4215,7 +4226,8 @@
         "type": "Feature",
         "properties": {
           "name": "Maryland",
-          "density": 596.3
+          "salesRep": "Daniel Kang",
+          "salesRepContact":"daniel.kang@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -4491,7 +4503,8 @@
         "type": "Feature",
         "properties": {
           "name": "Massachusetts",
-          "density": 840.2
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -4645,7 +4658,8 @@
         "type": "Feature",
         "properties": {
           "name": "Michigan",
-          "density": 173.9
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -5281,7 +5295,8 @@
         "type": "Feature",
         "properties": {
           "name": "Minnesota",
-          "density": 67.14
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -5627,7 +5642,8 @@
         "type": "Feature",
         "properties": {
           "name": "Mississippi",
-          "density": 63.5
+          "salesRep": "Warren Miller",
+          "salesRepContact":"warren.miller@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -5825,7 +5841,8 @@
         "type": "Feature",
         "properties": {
           "name": "Missouri",
-          "density": 87.26
+          "salesRep": "Richard Centala",
+          "salesRepContact":"richard.centala@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -6051,7 +6068,8 @@
         "type": "Feature",
         "properties": {
           "name": "Montana",
-          "density": 6.858
+          "salesRep": "Steve Pryce",
+          "salesRepContact":"steve.pryce@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -6273,7 +6291,8 @@
         "type": "Feature",
         "properties": {
           "name": "Nebraska",
-          "density": 23.97
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -6403,7 +6422,8 @@
         "type": "Feature",
         "properties": {
           "name": "New Hampshire",
-          "density": 147
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -6529,7 +6549,8 @@
         "type": "Feature",
         "properties": {
           "name": "New Jersey",
-          "density": 1189
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -6671,7 +6692,8 @@
         "type": "Feature",
         "properties": {
           "name": "New Mexico",
-          "density": 17.16
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -6753,7 +6775,8 @@
         "type": "Feature",
         "properties": {
           "name": "New York South",
-          "density": 412.3
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -6903,7 +6926,8 @@
         "type": "Feature",
         "properties": {
           "name": "North Carolina",
-          "density": 198.2
+          "salesRep": "Jason Mastrean",
+          "salesRepContact":"jason.mastrean@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -7161,7 +7185,8 @@
         "type": "Feature",
         "properties": {
           "name": "North Dakota",
-          "density": 9.916
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -7239,7 +7264,8 @@
         "type": "Feature",
         "properties": {
           "name": "Ohio",
-          "density": 281.9
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -7441,7 +7467,8 @@
         "type": "Feature",
         "properties": {
           "name": "Oklahoma",
-          "density": 55.22
+          "salesRep": "Richard Centala",
+          "salesRepContact":"richard.centala@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -7635,7 +7662,8 @@
         "type": "Feature",
         "properties": {
           "name": "Oregon",
-          "density": 40.33
+          "salesRep": "Steve Pryce",
+          "salesRepContact":"steve.pryce@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -7873,7 +7901,8 @@
         "type": "Feature",
         "properties": {
           "name": "Pennsylvania West",
-          "density": 284.3
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8019,7 +8048,8 @@
         "type": "Feature",
         "properties": {
           "name": "Rhode Island",
-          "density": 1006
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8099,7 +8129,8 @@
         "type": "Feature",
         "properties": {
           "name": "South Carolina",
-          "density": 155.4
+          "salesRep": "Jason Mastrean",
+          "salesRepContact":"jason.mastrean@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8289,7 +8320,8 @@
         "type": "Feature",
         "properties": {
           "name": "South Dakota",
-          "density": 98.07
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8419,7 +8451,8 @@
         "type": "Feature",
         "properties": {
           "name": "Utah",
-          "density": 34.3
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8481,7 +8514,8 @@
         "type": "Feature",
         "properties": {
           "name": "Vermont",
-          "density": 67.73
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8607,7 +8641,8 @@
         "type": "Feature",
         "properties": {
           "name": "Virginia",
-          "density": 204.5
+          "salesRep": "Daniel Kang",
+          "salesRepContact":"daniel.kang@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8881,7 +8916,8 @@
         "type": "Feature",
         "properties": {
           "name": "Washington",
-          "density": 102.6
+          "salesRep": "Steve Pryce",
+          "salesRepContact":"steve.pryce@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -9193,7 +9229,8 @@
         "type": "Feature",
         "properties": {
           "name": "West Virginia",
-          "density": 77.06
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -9467,7 +9504,8 @@
         "type": "Feature",
         "properties": {
           "name": "Wisconsin",
-          "density": 105.2
+          "salesRep": "Jon Kratz",
+          "salesRepContact":"jon.kratz@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -9781,7 +9819,8 @@
         "type": "Feature",
         "properties": {
           "name": "Wyoming",
-          "density": 5.851
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -9847,7 +9886,8 @@
         "type": "Feature",
         "properties": {
           "name": "New York North",
-          "density": 412.3
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -10005,7 +10045,8 @@
         "type": "Feature",
         "properties": {
           "name": "Pennsylvania East",
-          "density": 284.3
+          "salesRep": "Daniel Kang",
+          "salesRepContact":"daniel.kang@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -10127,7 +10168,8 @@
         "type": "Feature",
         "properties": {
           "name": "Puerto Rico",
-          "density": 1082
+          "salesRep": "Warren Miller",
+          "salesRepContact":"warren.miller@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -10209,7 +10251,8 @@
         "type": "Feature",
         "properties": {
           "name": "Alabama",
-          "density": 94.65
+          "salesRep": "Warren Miller",
+          "salesRepContact":"warren.miller@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -10355,7 +10398,8 @@
         "type": "Feature",
         "properties": {
           "name": "Alaska",
-          "density": 1.264
+          "salesRep": "Steve Pryce",
+          "salesRepContact":"steve.pryce@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -14819,7 +14863,8 @@
         "type": "Feature",
         "properties": {
           "name": "Arizona",
-          "density": 57.05
+          "salesRep": "Makia Kim",
+          "salesRepContact":"makia.kim@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -14961,7 +15006,8 @@
         "type": "Feature",
         "properties": {
           "name": "Arkansas",
-          "density": 56.43
+          "salesRep": "Richard Centala",
+          "salesRepContact":"richard.centala@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -15123,7 +15169,8 @@
         "type": "Feature",
         "properties": {
           "name": "Colorado",
-          "density": 49.33
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -15201,7 +15248,8 @@
         "type": "Feature",
         "properties": {
           "name": "Connecticut",
-          "density": 739.1
+          "salesRep": "Steven Suh",
+          "salesRepContact":"steven.suh@rayamerica.com"
         },
         "geometry": {
           "coordinates": [

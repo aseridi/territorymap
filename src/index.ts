@@ -62,8 +62,8 @@ const territories: { [territoryName: string]: string[] } = {
     "Iowa",
   ],
   SouthCentral1: ["Arkansas", "Oklahoma", "Missouri"],
-  SouthCentral2: ["Louisiana", "Texas North"], // South of Fort Worth (need more precise data)
-  TexasNorth: ["Texas South"], // North of Fort Worth (need more precise data)
+  SouthCentral2: ["Texas North"], // South of Fort Worth (need more precise data)
+  TexasNorth: ["Louisiana", "Texas South"], // North of Fort Worth (need more precise data)
   Northwest: ["Washington", "Oregon", "Idaho", "Montana", "Alaska"],
   MountainPlains: [
     "Utah",
