@@ -156,33 +156,33 @@ svg
 
     // Highlight states in the same territory
     if (currentTerritory) {
-      for (const stateName of territories[currentTerritory]) {
+      territories[currentTerritory].forEach((stateName) => {
         d3.select(`#${stateName.replace(/ /g, "")}`).attr(
           "fill",
           stateName === currentStateName ? "#25ade5" : "rgba(37, 173, 229, 0.5)"
         );
-      }
+      });
     }
 
+    // Display the tooltip with sales information
     tooltip
       .transition()
       .duration(200)
       .style("opacity", 0.9);
     tooltip
       .html(
-        `${d.properties.name}<br/>Sales Rep: ${
-          salesData[d.properties.name]?.salesRep || "N/A"
-        }<br/>Contact: ${
-          salesData[d.properties.name]?.salesRepContact || "N/A"
-        }`
+        `<strong>${d.properties.name}</strong><br>
+         Sales Rep: ${d.properties.salesRep || "N/A"}<br>
+         Contact: ${d.properties.salesRepContact || "N/A"}`
       )
-      .style("left", event.pageX + "px")
-      .style("top", event.pageY - 28 + "px");
+      .style("left", `${event.pageX + 10}px`)
+      .style("top", `${event.pageY - 20}px`);
   })
   .on("mouseout", (event: MouseEvent, d: GeoJsonFeature) => {
     const currentStateName = d.properties.name;
-    let currentTerritory: string | undefined;
 
+    // Reset the highlight for the current state's territory
+    let currentTerritory: string | undefined;
     for (const territory in territories) {
       if (territories[territory].includes(currentStateName)) {
         currentTerritory = territory;
@@ -191,13 +191,16 @@ svg
     }
 
     if (currentTerritory) {
-      for (const stateName of territories[currentTerritory]) {
+      territories[currentTerritory].forEach((stateName) => {
         d3.select(`#${stateName.replace(/ /g, "")}`).attr("fill", "#303642");
-      }
+      });
     }
 
+    // Hide the tooltip
     tooltip.transition().duration(500).style("opacity", 0);
   })
   .on("mousemove", (event: MouseEvent) => {
-    tooltip.style("left", event.pageX + "px").style("top", event.pageY - 28 + "px");
+    tooltip
+      .style("left", `${event.pageX + 10}px`)
+      .style("top", `${event.pageY - 20}px`);
   });

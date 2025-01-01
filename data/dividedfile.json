@@ -3,9 +3,11 @@
     "features": [
       {
         "type": "Feature",
+        "id":"51",
         "properties": {
           "name": "Nevada West",
-          "density": 24.8
+          "salesRep": "Steve Pryce",
+          "salesRepContact":"steve.pryce@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -41,14 +43,14 @@
             ]
           ],
           "type": "Polygon"
-        },
-        "id": 0
+        }
       },
       {
         "type": "Feature",
         "properties": {
           "name": "California South",
-          "density": 241.7
+          "salesRep": "Makia Kim",
+          "salesRepContact":"makia.kim@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -292,9 +294,11 @@
       },
       {
         "type": "Feature",
+        "id":"52",
         "properties": {
           "name": "Nevada East",
-          "density": 24.8
+          "salesRep": "Makia Kim",
+          "salesRepContact":"makia.kim@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -374,14 +378,14 @@
             ]
           ],
           "type": "Polygon"
-        },
-        "id": 2
+        }
       },
       {
         "type": "Feature",
         "properties": {
           "name": "California North",
-          "density": 241.7
+          "salesRep": "Steve Pryce",
+          "salesRepContact":"steve.pryce@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -551,7 +555,8 @@
         "type": "Feature",
         "properties": {
           "name": "Texas North",
-          "density": 98.07
+          "salesRep": "Richard Centala",
+          "salesRepContact":"richard.centala@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -757,7 +762,8 @@
         "type": "Feature",
         "properties": {
           "name": "Texas South",
-          "density": 98.07
+          "salesRep": "Stefan Moser",
+          "salesRepContact":"stefan.moser@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -1199,7 +1205,8 @@
         "type": "Feature",
         "properties": {
           "name": "Delaware",
-          "density": 464.3
+          "salesRep": "Daniel Kang",
+          "salesRepContact":"daniel.kang@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -1265,7 +1272,8 @@
         "type": "Feature",
         "properties": {
           "name": "District of Columbia",
-          "density": 10065
+          "salesRep": "Daniel Kang",
+          "salesRepContact":"daniel.kang@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -1299,7 +1307,8 @@
         "type": "Feature",
         "properties": {
           "name": "Florida",
-          "density": 353.4
+          "salesRep": "Warren Miller",
+          "salesRepContact":"warren.miller@rayamerica.com"
         },
         "geometry": {
           "coordinates": [
@@ -8597,7 +8606,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Virginia West",
+          "name": "Virginia",
           "density": 204.5
         },
         "geometry": {
