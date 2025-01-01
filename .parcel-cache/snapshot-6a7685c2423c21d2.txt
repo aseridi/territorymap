@@ -41,9 +41,9 @@
 40C:\Projects\SalesTer\node_modules\base-x133801476348881302 1
 74C:\Projects\SalesTer\node_modules\node-gyp-build-optional-packages\LICENSE133801476347526083 0
 81C:\Projects\SalesTer\node_modules\posthtml\node_modules\domutils\lib\traversal.js133801476356178303 0
-25C:\Projects\SalesTer\dist133802349798827742 1
+25C:\Projects\SalesTer\dist133802361954334509 1
 47C:\Projects\SalesTer\node_modules\color-convert133801459620592670 1
-31C:\Projects\SalesTer\index.html133801475971555849 0
+31C:\Projects\SalesTer\index.html133802360349788428 0
 65C:\Projects\SalesTer\node_modules\caniuse-lite\data\regions\DE.js133801476356297843 0
 52C:\Projects\SalesTer\node_modules\fill-range\LICENSE133801476348086132 0
 74C:\Projects\SalesTer\node_modules\@parcel\transformer-postcss\package.json133801476350437876 0
@@ -51,7 +51,7 @@
 38C:\Projects\SalesTer\package-lock.json133801476417473727 0
 61C:\Projects\SalesTer\node_modules\typescript\lib\lib.es6.d.ts133801458831285876 0
 33C:\Projects\SalesTer\node_modules133801476416996125 1
-24C:\Projects\SalesTer\src133801465144060191 1
+24C:\Projects\SalesTer\src133802359625067611 1
 63C:\Projects\SalesTer\node_modules\update-browserslist-db\cli.js133801476347176091 0
 49C:\Projects\SalesTer\node_modules\semver\index.js133801476348361298 0
 46C:\Projects\SalesTer\node_modules\d3-hierarchy133801458734341263 1
@@ -80,7 +80,7 @@
 54C:\Projects\SalesTer\node_modules\caniuse-lite\LICENSE133801476348851296 0
 60C:\Projects\SalesTer\node_modules\d3-shape\src\lineRadial.js133801458734291261 0
 52C:\Projects\SalesTer\node_modules\d3-fetch\README.md133801458733656117 0
-33C:\Projects\SalesTer\src\index.ts133802341344159555 0
+33C:\Projects\SalesTer\src\index.ts133802361916202947 0
 71C:\Projects\SalesTer\node_modules\typescript\lib\lib.es2022.string.d.ts133801458831153922 0
 79C:\Projects\SalesTer\node_modules\caniuse-lite\data\features\iframe-seamless.js133801476358716256 0
 76C:\Projects\SalesTer\node_modules\@swc\helpers\_\_class_private_field_update133801476355588660 1
@@ -574,7 +574,7 @@
 83C:\Projects\SalesTer\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133801476351653008 0
 71C:\Projects\SalesTer\node_modules\parcel\node_modules\commander\esm.mjs133801476356286853 0
 60C:\Projects\SalesTer\node_modules\node-addon-api\common.gypi133801476347526083 0
-47C:\Projects\SalesTer\dist\index.b71e74eb.js.map133802349798817760 0
+47C:\Projects\SalesTer\dist\index.b71e74eb.js.map133802361954324410 0
 49C:\Projects\SalesTer\node_modules\topojson-client133801458733846130 1
 71C:\Projects\SalesTer\node_modules\robust-predicates\umd\orient2d.min.js133801458733436125 0
 75C:\Projects\SalesTer\node_modules\.bin\node-gyp-build-optional-packages.cmd133801476371570661 0
@@ -656,7 +656,7 @@
 62C:\Projects\SalesTer\node_modules\typescript\lib\watchGuard.js133801458829804511 0
 72C:\Projects\SalesTer\node_modules\posthtml\node_modules\entities\LICENSE133801476355053571 0
 61C:\Projects\SalesTer\node_modules\d3-format\locale\uk-UA.json133801458734601264 0
-43C:\Projects\SalesTer\dist\index.b71e74eb.js133802349798787568 0
+43C:\Projects\SalesTer\dist\index.b71e74eb.js133802361954284445 0
 52C:\Projects\SalesTer\node_modules\utility-types\dist133801476348471292 1
 55C:\Projects\SalesTer\node_modules\utility-types\LICENSE133801476346970966 0
 65C:\Projects\SalesTer\node_modules\caniuse-lite\data\regions\KG.js133801476359663979 0
@@ -3085,7 +3085,7 @@
 64C:\Projects\SalesTer\node_modules\domutils\lib\querying.d.ts.map133801476350467887 0
 62C:\Projects\SalesTer\node_modules\domutils\lib\querying.js.map133801476350537899 0
 65C:\Projects\SalesTer\node_modules\caniuse-lite\data\regions\OM.js133801476360986456 0
-30C:\Projects\SalesTer\dist\data133801484985073049 1
+30C:\Projects\SalesTer\dist\data133802359625047612 1
 65C:\Projects\SalesTer\node_modules\domutils\lib\stringify.d.ts.map133801476350587858 0
 62C:\Projects\SalesTer\node_modules\@parcel\cache\lib\types.d.ts133801476354243532 0
 65C:\Projects\SalesTer\node_modules\d3-selection\src\sourceEvent.js133801458734411265 0
@@ -5195,7 +5195,7 @@
 67C:\Projects\SalesTer\node_modules\@parcel\reporter-cli\src\emoji.js133801476352428108 0
 66C:\Projects\SalesTer\node_modules\@parcel\utils\src\relativeUrl.js133801476352093027 0
 61C:\Projects\SalesTer\node_modules\@parcel\utils\src\schema.js133801476352218117 0
-38C:\Projects\SalesTer\dist\src\index.js133801484985173540 0
+38C:\Projects\SalesTer\dist\src\index.js133802359625057620 0
 68C:\Projects\SalesTer\node_modules\@parcel\utils\src\shared-buffer.js133801476352248100 0
 64C:\Projects\SalesTer\node_modules\@parcel\utils\src\sourcemap.js133801476352338095 0
 61C:\Projects\SalesTer\node_modules\@parcel\utils\src\stream.js133801476352398108 0
@@ -5780,8 +5780,8 @@
 50C:\Projects\SalesTer\node_modules\.bin\tsv2csv.cmd133801458734711258 0
 47C:\Projects\SalesTer\node_modules\.bin\tsv2json133801458734711258 0
 51C:\Projects\SalesTer\node_modules\.bin\tsv2json.ps1133801458734711258 0
-36C:\Projects\SalesTer\dist\index.html133802336720213561 0
+36C:\Projects\SalesTer\dist\index.html133802360423535511 0
 34C:\Projects\SalesTer\dist\index.js133801463323533710 0
-29C:\Projects\SalesTer\dist\src133801464545981780 1
-47C:\Projects\SalesTer\dist\data\dividedfile.json133801484985083052 0
+29C:\Projects\SalesTer\dist\src133802359625057620 1
+47C:\Projects\SalesTer\dist\data\dividedfile.json133802359625047612 0
 37C:\Projects\SalesTer\data\us-10m.json133801353314336138 0

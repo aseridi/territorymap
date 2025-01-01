@@ -748,6 +748,22 @@ svg.append("g").selectAll("path").data(states.features) // Use features directly
 }).on("mousemove", (event)=>{
     tooltip.style("left", `${event.pageX + 10}px`).style("top", `${event.pageY - 20}px`);
 });
+// === Add Sales Rep Tiles Below ===
+const salesRepsContainer = _d3.select("#sales-reps");
+states.features.forEach((feature)=>{
+    const tile = salesRepsContainer.append("div").attr("class", "tile").attr("id", `tile-${feature.properties.name.replace(/ /g, "")}`).html(`
+      <strong>${feature.properties.name}</strong><br>
+      Sales Rep: ${feature.properties.salesRep || "N/A"}<br>
+      Contact: ${feature.properties.salesRepContact || "N/A"}
+    `);
+    // Scroll to tile on state click
+    _d3.select(`#${feature.properties.name.replace(/ /g, "")}`).on("click", ()=>{
+        document.getElementById(`tile-${feature.properties.name.replace(/ /g, "")}`)?.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+    });
+});
 
 },{"d3":"17XFv","../data/dividedfile.json":"7adtt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"17XFv":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");

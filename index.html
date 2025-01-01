@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>U.S. Map</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Map with Sales Territories</title>
     <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Map container styling */
+        #map {
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            width: 960px;
+            height: 600px;
+        }
+
+        /* Tooltip styling */
         .tooltip {
             position: absolute;
             text-align: center;
@@ -12,11 +32,52 @@
             border: 1px solid grey;
             border-radius: 5px;
             pointer-events: none; /* Prevent tooltip from blocking mouse events */
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        /* Sales reps section */
+        #sales-reps {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Individual sales rep tiles */
+        .tile {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .tile:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .tile.active {
+            background-color: #4CAF50;
+            color: white;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>U.S. Map with Sales Territories</h1>
+    </header>
     <svg id="map"></svg>
-    <script src="./src/index.ts" type="module"></script> <!— Corrected line —>
+    <div id="sales-reps">
+        <!-- Sales rep tiles will be dynamically added here -->
+    </div>
+    <script src="./src/index.ts" type="module"></script>
 </body>
 </html>

@@ -131,6 +131,8 @@ const tooltip = d3
   .style("padding", "10px")
 
   .style("pointer-events", "none");
+
+  
 // Draw states with data and interactivity
 svg
   .append("g")
@@ -204,3 +206,26 @@ svg
       .style("left", `${event.pageX + 10}px`)
       .style("top", `${event.pageY - 20}px`);
   });
+
+// === Add Sales Rep Tiles Below ===
+const salesRepsContainer = d3.select("#sales-reps");
+
+states.features.forEach((feature) => {
+  const tile = salesRepsContainer
+    .append("div")
+    .attr("class", "tile")
+    .attr("id", `tile-${feature.properties.name.replace(/ /g, "")}`)
+    .html(`
+      <strong>${feature.properties.name}</strong><br>
+      Sales Rep: ${feature.properties.salesRep || "N/A"}<br>
+      Contact: ${feature.properties.salesRepContact || "N/A"}
+    `);
+
+  // Scroll to tile on state click
+  d3.select(`#${feature.properties.name.replace(/ /g, "")}`)
+    .on("click", () => {
+      document
+        .getElementById(`tile-${feature.properties.name.replace(/ /g, "")}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+});
